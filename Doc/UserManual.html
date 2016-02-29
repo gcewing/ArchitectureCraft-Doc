@@ -1,0 +1,254 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+
+
+
+
+
+
+
+
+
+
+  
+  <meta content="text/html; charset=ISO-8859-1" http-equiv="content-type"><title>User's Manual - ArchitectureCraft</title><style type="text/css"></style><link rel="stylesheet" href="styles.css" type="text/css"></head><body>
+<h1>ArchitectureCraft User's Manual</h1>
+<h2>Contents</h2>
+
+
+<ul id="mozToc">
+
+<!--mozToc h2 2 h3 3 h4 4 h5 5 h6 6-->
+  
+  
+  <li><a href="#mozTocId709343">Sawbench</a></li>
+  <li><a href="#Tools">Tools</a></li>
+  <li><a href="#Placement">Block Placement</a></li>
+  <li><a href="#BlockTypes">Block Types</a></li>
+  <ul>
+    <li><a href="RoofBlocks.html">Roof Blocks</a></li>
+    <li><a href="WindowFrames.html">Window Frames</a></li>
+    <li><a href="#RoundedBlocks">Rounded Blocks</a></li>
+    <li><a href="#Classical">Classical Architecture</a></li>
+    <li><a href="#Arches">Arches</a></li>
+    <li><a href="#Railings">Railings</a><br>
+    </li>
+
+
+    <li><a href="#OtherBlocks">Other Blocks</a><br>
+    </li>
+  </ul>
+
+
+
+  <li><a href="#mozTocId284203">Recipes</a></li>
+  
+
+  
+</ul>
+
+    
+<h2><a class="mozTocH2" name="mozTocId576848"></a><a name="Sawbench"></a>Sawbench</h2>
+
+
+    <img style="width: 200px; height: 197px;" class="float-left" src="Icon-Sawbench-Large.png" alt="">
+<div class="float-right" style="margin-left: 40px;"><img style="width: 480px; height: 279px;" src="Gui-Sawbench.png" alt=""><br>
+    </div>
+ArchitectureCraft blocks are created by using the Sawbench to cut up material
+blocks. Almost any type of full-cube block can be used as raw material.<br>
+
+    <br>Material
+goes in the top left slot, and finished blocks are extracted from the
+slot below. A number of pages of patterns are available, selected from
+the menu at the right.<br>
+
+    <br>
+<span style="font-weight: bold;">Note</span>: Some patterns may require
+more than one block of material in the
+input slot before anything becomes available from the output slot. The
+ratio of input to output blocks is shown underneath the output slot.<br>
+
+    
+<h2><a class="mozTocH2" name="mozTocId709343"></a><a name="Tools"></a>Tools<br>
+    </h2>
+
+    ArchitectureCraft provides two tools for manipulating its blocks, the <span style="font-weight: bold;">Hammer</span> and the <span style="font-weight: bold;">Chisel</span>. The exact function of these tools depends on the block, but the following general principles apply.<br>
+<br><img style="width: 96px; height: 96px;" src="Icon-Hammer-Large.png" alt=""><br>
+<br>
+<a name="Hammer"></a>The <span style="font-weight: bold;">Hammer</span> is used to rotate blocks.<br>
+<ul>
+  <li>Right-clicking with a hammer rotates a block 90 degrees around
+its "vertical" axis (which may not actually be vertical if it was
+placed sideways or upside down -- see <a href="#Placement">Placement</a>).</li>
+  <li>Shift-right-clicking
+with a hammer cycles between the 6 possible orientations of its bottom
+face (north, south, east, west, up, down).<br>
+  </li>
+</ul>
+<img style="width: 96px; height: 96px;" src="Icon-Chisel-Large.png" alt=""><br>
+
+    <br><a name="Chisel"></a>
+
+The <span style="font-weight: bold;">Chisel</span> is used to alter the structure of blocks in various ways.<br>
+<ol>
+  </ol>
+<ul>
+  <li>Some blocks automatically form connections with adjacent blocks.
+These connections can be disabled and re-enabled by right-clicking with
+a chisel near the side that you want to change. </li>
+  <li>Some blocks can have a secondary material applied to them. The
+secondary material can be removed by right-clicking on the centre of
+the block with a chisel.<br>
+  </li>
+  <li>You can also right-click on a vanilla Glass, Glass Pane,
+Glowstone or Ice block with a chisel to harvest the block without
+breaking it.</li>
+</ul>
+<ol>
+
+  
+</ol>
+
+
+
+    
+<h2><a name="Placement"></a>Block Placement</h2>While the exact methods
+used for placing ArchitectureCraft blocks depends on the type of block,
+this section describes some general principles that apply to most
+blocks.<br>
+<br>
+Firstly, blocks can be placed either right side up or upside down. If
+you click on the top surface of a block, or on the lower half of the
+side of a block, the new block is placed right side up. If you click on
+the underneath face of a block, or the top half of the side of a block,
+the new block is placed upside down.<br>
+<br>
+Secondly, the rotation of the block around its vertical axis depends on both where you click and the symmetry of the block:<br>
+<ul>
+  <li>For an asymmetrical block, the rotation is determined by which <span style="font-style: italic;">corner</span>
+you click nearest. For example, the Roof Outer Corner block is oriented
+so that its inside corner is nearest to the place where you click.</li>
+  <li>For a block with left-right symmetry, the rotation is determined by which <span style="font-style: italic;">side</span> you click nearest. For example, the plain Roof Tile is oriented so that its back edge is nearest to the place where you click.</li>
+</ul>
+Thirdly, blocks can be placed sideways by shift-clicking on the side of
+an existing block. The above rules for rotation then apply to the place
+you click on the side face, with the rotation axis being perpendicular
+to that face.<br>
+<br>
+Fourthly, some blocks exhibit special behaviour when you place them by
+clicking on another block of the same type. For example, a roof block
+placed against the side of another roof block will try to orient itself
+so as to match up with the existing block, overriding the above rules.
+Most of the time this will do what you want, but if it doesn't, you can
+always change the orientation after placement using the <a href="#Hammer">Hammer</a>.<br>
+<h2><a name="BlockTypes"></a>
+Block Types</h2>
+
+The following categories of blocks are available, selected from the menu at the right of the Sawbench GUI.<br>
+<h3><a name="RoofBlocks"></a><a href="RoofBlocks.html">Roof Blocks</a></h3>
+Blocks for creating roofs and other sloping structures.<br>
+<br>
+<a href="RoofBlocks.html"><img style="border: 2px solid ; width: 400px; height: 144px;" src="GalleryRoofBlocks.png" alt=""></a>
+<h3><a name="WindowFrames"></a><a href="WindowFrames.html">Window Frames</a></h3>
+Realistically detailed window frames that can have glass inserted in them.<br>
+<br>
+<a href="WindowFrames.html"><img style="border: 2px solid ; width: 400px; height: 144px;" src="GalleryWindowFrames.png" alt=""></a><br>
+<h3><a name="RoundedBlocks"></a>Rounded Blocks</h3>
+Round pillars, round posts, and blocks for giving rounded corners to walls.<br>
+<br>
+<img style="width: 400px; height: 208px;" src="GalleryRounded.png" alt=""><br>
+<h3><a name="Arches"></a><a href="Arches.html">Arches</a></h3>
+Parts for building arches of various sizes.<br>
+<br>
+<a href="Arches.html"><img style="border: 2px solid ; width: 400px; height: 225px;" src="GalleryArches.png" alt=""></a><br>
+
+<h3><a name="Classical"></a>Classical</h3>Some elements from classical architecture.<br>
+<br>
+<img style="width: 352px; height: 208px;" src="GalleryClassical.png" alt=""><br>
+<h3><a name="Railings"></a><a href="Railings.html">Railings</a></h3>
+Decorative and functional safety rails for your balconies and staircases.<br>
+<br>
+<a href="Railings.html"><img alt="" src="Railing/GrandStaircase.png" style="border: 2px solid ; width: 428px; height: 240px;"></a><br>
+
+<h3><a name="OtherBlocks"></a>Other Blocks</h3>There is currently just one item here, <a href="RoofBlocks.html#Cladding">Cladding</a> for application to roof blocks.<br>
+
+
+<h2><a class="mozTocH2" name="mozTocId284203"></a>Recipes</h2>
+
+
+    
+<table style="text-align: left;" border="1" cellpadding="5" cellspacing="0">
+
+      <tbody>
+        <tr>
+          <td style="vertical-align: top; font-weight: bold;">Product<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">Ingredients<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">Recipe<br>
+          </td>
+          <td style="vertical-align: top; font-weight: bold;">Notes<br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">Sawbench<br>
+          </td>
+          <td style="vertical-align: top;">2 iron ingots<br>
+1 circular saw blade<br>
+1 large pulley<br>
+1 wooden pressure plate<br>
+4 sticks<br>
+          </td>
+          <td style="vertical-align: top;"><img style="width: 239px; height: 113px;" src="Recipe-Sawbench.png" alt=""></td>
+          <td style="vertical-align: top;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">Circular Saw Blade<br>
+          </td>
+          <td style="vertical-align: top;">4 iron ingots<br>
+1 stick<br>
+          </td>
+          <td style="vertical-align: top;"><img src="Recipe-Sawblade.png" alt=""></td>
+          <td style="vertical-align: top;"><br>
+          </td>
+        </tr>
+        <tr>
+          <td style="vertical-align: top;">Large Pulley<br>
+          </td>
+          <td style="vertical-align: top;">4 wooden planks<br>
+1 stick<br>
+          </td>
+          <td style="vertical-align: top;"><img src="Recipe-LargePulley.png" alt=""></td>
+          <td style="vertical-align: top;"><br>
+          </td>
+        </tr><tr>
+      <td style="vertical-align: top;">Hammer<br>
+      </td>
+      <td style="vertical-align: top;">3 iron ingots<br>
+2 sticks<br>
+      </td>
+      <td style="vertical-align: top;"><img style="width: 239px; height: 113px;" src="Recipe-Hammer.png" alt=""></td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+<tr>
+      <td style="vertical-align: top;">Chisel<br>
+      </td>
+      <td style="vertical-align: top;">1 iron ingot<br>
+1 stick<br>
+      </td>
+      <td style="vertical-align: top;"><img style="width: 237px; height: 113px;" src="Recipe-Chisel.png" alt=""></td>
+      <td style="vertical-align: top;"><br>
+      </td>
+    </tr>
+
+      </tbody>
+    
+</table>
+
+    <br><br>
+
+  
+
+</body></html>
